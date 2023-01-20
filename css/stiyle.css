@@ -221,10 +221,3 @@ footer {
     display: grid;
 }
 
-#mediaq { display: grid;}
-@media screen and (min-width: 320px) {
-    #mediaq {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-}

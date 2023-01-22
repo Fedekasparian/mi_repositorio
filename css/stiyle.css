@@ -4,15 +4,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*encabezado*/
 .nav-container {
-    background-color: rgb(254, 229, 229);
+    background-color: #fffef4;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
-    height: 40px;
+    height: 100px;
 }
-
 
 .nav-li {
     border: 2px solid black;
@@ -21,13 +21,30 @@
     list-style: none;
     width: 100vh;
     text-align: center;
+    background-color: #fdfcf4;
 }
+
+/*index..html*/
 
 .segundo-container {
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    margin: 30px;
+    padding: 0px;
+    width: 200vh;
+    color: black;
+}
+
 
 .tercer-container {
     background-color: rgb(255, 255, 255);
@@ -42,7 +59,7 @@
     justify-content: center;
     align-items: center;
     font-size: large;
-    background-color: rgb(81, 236, 226);
+    background-color:grey;
     height: 50px;
 
 }
@@ -62,35 +79,8 @@
     margin: 30px;
 }
 
-.titulo {
-    margin: 5% 20%;
-    padding-top: 0;
-    background-color: rgb(255, 255, 255);
-    width: 100vh;
-}
-
-.titulo h2 {
-    text-decoration: underline;
-}
-
-.titulo img {
-    width: 100vh;
-    height: 200px;
-}
-
-.titulo>p {
-    margin-top: 5%;
-}
-
-.navbar {
-    opacity: 80%;
-    padding: 0% 20%;
-}
-
-/*Galeria*/
-
-
 /*Login Page*/
+
 .form-login {
     margin: 5% 20%;
 }
@@ -109,43 +99,39 @@
 }
 
 
-
 /*galeria*/
 
-
 .carta-oferta {
-    display: flex;
-    width: 100;
-    margin: 20px;
-    margin-bottom: 40px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color: aquamar;
     border: solid rgb(0, 85, 6);
-    background-color: rgb(100, 243, 222);
-}
-
-.carta-oferta>h4 {
-    justify-content: center;
-    padding: 2%;
-    align-content: space-between;
+    background-color:#fffcdc;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
 }
 
 .carta-oferta img {
     display: flex;
-    flex-direction: row;
-    width: 45vh;
-    text-align: center;
-    justify-content: center;
+    height: 200px;
+    width: 300px;
+}
+.carta-oferta h4 {
+padding: 2%;
+font-family: 'Times New Roman', Times, serif;
+text-decoration: underline;
+flex-direction: column;
 }
 
 .carta-oferta p {
-    text-align: center;
     padding: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
 }
 
+
 /*SUCURSALES*/
+
 .mapa {
     display: flex;
     flex-wrap: wrap;
@@ -158,6 +144,15 @@ h4 {
     justify-content: center;
     font-size: 25px;
     padding: 0% 20%;
+}
+
+.titulo h2 {
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+.titulo div {
+    margin-top: 5%;
 }
 
 /*FOOTER*/
@@ -216,8 +211,3 @@ footer {
     justify-content: center;
     font-size: 10px;
 }
-
-#grilla {
-    display: grid;
-}
-

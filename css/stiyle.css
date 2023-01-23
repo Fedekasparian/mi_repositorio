@@ -257,7 +257,9 @@ footer {
             background-color: grey;
             height: 200px;
             width: 150%;
-
+        }
+        .nav-li{
+            width: auto;
         }
         /*locales*/
 

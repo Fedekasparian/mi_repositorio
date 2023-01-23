@@ -215,11 +215,10 @@ footer {
 
 /*tablet (LOCALES Y CONTACTANOS)*/ 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:700px) {
     .nav-container {
-        background-color: #ccbd1c;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
         list-style-type: none;
@@ -249,10 +248,25 @@ footer {
         justify-content: center;
         width: auto;
     }
+}
+
     @media screen and (max-width:500px){
         .nav-container{
             display:flex;
             flex-direction:column;
+            background-color: grey;
+            height: 200px;
+            width: 110vh;
         }
-    }
+        .segundo-container{
+            display: flex;
+            width: 100vh;
+        }
+        .mapa{
+            width: 100vh;
+        }
+        footer{
+            background-color: rgb(248, 220, 220);
+            width: 110vh;
+        }
     }

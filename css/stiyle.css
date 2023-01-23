@@ -256,20 +256,21 @@ footer {
             flex-direction:column;
             background-color: grey;
             height: 200px;
-            width: 100%;
+            width: 150%;
+
         }
         /*locales*/
 
         .segundo-container{
             display: flex;
-            width: 100%;
+            width: 150%;
         }
         .mapa{
             width: 100vh;
         }
         footer{
             background-color: rgb(248, 220, 220);
-            width: 100%;
+            width: 150%;
         }
 
         /*contactanos*/
@@ -280,9 +281,9 @@ footer {
             justify-content: center;
             align-items: center;
             margin: 20px;
-            width: 100%;
+            width: auto;
         }
         main{
-            width: 100%;
+            width: 150%;
         }
     }

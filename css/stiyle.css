@@ -15,13 +15,13 @@
 }
 
 .nav-li {
-    border: 2px solid black;
     margin: 0;
     padding: 8px;
     list-style: none;
     width: 100vh;
     text-align: center;
-    background-color: #fdfcf4;
+    background-color: #fffef4;
+    border-radius: 10px;
 }
 
 /*index..html*/
@@ -58,7 +58,7 @@
     justify-content: center;
     align-items: center;
     font-size: large;
-    background-color:grey;
+    background-color: grey;
     height: 50px;
 
 }
@@ -102,7 +102,7 @@
 
 .carta-oferta {
     border: solid rgb(0, 85, 6);
-    background-color:#fffcdc;
+    background-color: #fffcdc;
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
@@ -113,18 +113,19 @@
     height: 200px;
     width: 300px;
 }
+
 .carta-oferta h4 {
-padding: 2%;
-font-family: 'Times New Roman', Times, serif;
-text-decoration: underline;
-flex-direction: column;
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    flex-direction: column;
 }
 
 .carta-oferta p {
     padding: 2%;
     display: flex;
     flex-direction: column;
-    text-align:center;
+    text-align: center;
     justify-content: center;
 }
 
@@ -213,7 +214,20 @@ footer {
     font-size: 10px;
 }
 
-/*tablet (LOCALES Y CONTACTANOS)*/ 
+/*animaciones*/
+
+.nav-li:hover {
+    background-color: #ddddd8;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+/*tablet (LOCALES Y CONTACTANOS)*/
 
 @media screen and (max-width:900px) {
     .nav-container {
@@ -225,7 +239,7 @@ footer {
         height: 200px;
         width: 100%;
     }
-    
+
     .nav-li {
         border: solid white;
         margin: 0;
@@ -235,6 +249,8 @@ footer {
         background-color: #fdfcf4;
         color: solid blue;
     }
+
+    /*locales*/
 
     .titulo {
         display: flex;
@@ -250,52 +266,66 @@ footer {
     }
 }
 
-    @media screen and (max-width:500px){
-        .nav-container{
-            display:flex;
-            flex-direction:column;
-            background-color: grey;
-            height: 200px;
-            width: 100%;
-        }
-        .nav-li{
-            width: auto;
-        }
-        /*locales*/
 
-        .segundo-container{   
-            width: 100%;
-        }
-        .titulo{
-            width: 100%;
-        }
-        .mapa{
-            width: 100%;
-            margin: 30px;
-            padding: 0;
-            height: auto;
-            width: auto;
-            border: 2px solid black;
-        }
-        footer{
-            background-color: rgb(248, 220, 220);
-            width: 100%;
-        }
 
-        /*contactanos*/
-        .form-login{
-            height: 300px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .form-login h3{
-            text-decoration: underline;
-        }
-        form{
-            width: 100%;
-        }
-        main{
-            width: 100%;
-        }
+@media screen and (max-width:500px) {
+
+    /*nav*/
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 100%;
     }
+
+    .nav-li {
+        width: auto;
+        background-color: #fffcdc;
+        color: black;
+    }
+
+    /*locales*/
+
+    .segundo-container {
+        width: 100%;
+    }
+
+    .titulo {
+        width: 100%;
+    }
+
+    .mapa {
+        width: 100%;
+        margin: 30px;
+        padding: 0;
+        height: auto;
+        width: auto;
+        border: 2px solid black;
+    }
+
+    footer {
+        background-color: rgb(248, 220, 220);
+        width: 100%;
+    }
+
+    /*contactanos*/
+
+    .form-login {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .form-login h3 {
+        text-decoration: underline;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+}

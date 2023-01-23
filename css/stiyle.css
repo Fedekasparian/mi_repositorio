@@ -258,6 +258,8 @@ footer {
             height: 200px;
             width: 110vh;
         }
+        /*locales*/
+
         .segundo-container{
             display: flex;
             width: 100vh;
@@ -268,5 +270,16 @@ footer {
         footer{
             background-color: rgb(248, 220, 220);
             width: 110vh;
+        }
+
+        /*contactanos*/
+        .form-login{
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            width: 90vh;
         }
     }

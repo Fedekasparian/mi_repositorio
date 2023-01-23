@@ -213,9 +213,9 @@ footer {
     font-size: 10px;
 }
 
-/*tablet*/ 
+/*tablet (LOCALES Y CONTACTANOS)*/ 
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:900px) {
     .nav-container {
         background-color: #ccbd1c;
         display: flex;
@@ -249,4 +249,10 @@ footer {
         justify-content: center;
         width: auto;
     }
-}
+    @media screen and (max-width:500px){
+        .nav-container{
+            display:flex;
+            flex-direction:column;
+        }
+    }
+    }

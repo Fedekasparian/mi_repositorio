@@ -94,9 +94,7 @@
 
 .form-group {
     margin: 1% 0%;
-
 }
-
 
 /*galeria*/
 
@@ -187,15 +185,14 @@ footer {
     text-align: center;
 }
 
-
-
 .div-footer-dos {
     grid-area: b;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.div-footer-dos li{
+
+.div-footer-dos li {
     border-radius: 7px;
 }
 
@@ -224,20 +221,16 @@ footer {
     transition: .3s;
 }
 
-.div-footer-dos li:hover{
+.div-footer-dos li:hover {
     background-color: rgb(190, 177, 177);
     transition: .3s;
 }
 
-
-
-
-
-
-
 /*tablet (LOCALES Y CONTACTANOS)*/
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:768px) {
+    /*nav*/
+
     .nav-container {
         display: flex;
         flex-direction: row;
@@ -274,9 +267,7 @@ footer {
     }
 }
 
-
-
-@media screen and (max-width:500px) {
+@media screen and (max-width:576px) {
 
     /*nav*/
     .nav-container {
@@ -311,29 +302,30 @@ footer {
         border: 2px solid black;
     }
 
-    footer {
-        background-color: rgb(248, 220, 220);
-        width: 100%;
-    }
-
+    
     /*contactanos*/
-
+    
     .form-login {
         height: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
+    
     .form-login h3 {
         text-decoration: underline;
     }
-
+    
     form {
         width: 100%;
     }
-
+    
     main {
+        width: 100%;
+    }
+
+    footer {
+        background-color: rgb(248, 220, 220);
         width: 100%;
     }
 }

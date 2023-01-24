@@ -195,6 +195,9 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
 }
+.div-footer-dos li{
+    border-radius: 7px;
+}
 
 .div-footer-dos>h2 {
     width: 100%;
@@ -218,6 +221,11 @@ footer {
 
 .nav-li:hover {
     background-color: #ddddd8;
+    transition: .3s;
+}
+
+.div-footer-dos li:hover{
+    background-color: rgb(190, 177, 177);
     transition: .3s;
 }
 

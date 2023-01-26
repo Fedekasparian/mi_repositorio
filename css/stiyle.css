@@ -23,6 +23,12 @@
     background-color: #fffef4;
     border-radius: 10px;
 }
+.nav-li a{
+    text-decoration: none;
+    color: inherit;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
 
 /*index..html*/
 

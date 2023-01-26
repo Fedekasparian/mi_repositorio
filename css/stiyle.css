@@ -32,10 +32,6 @@
 
 /*index..html*/
 
-.segundo-container {
-    display: flex;
-    height: 400px;
-}
 
 .titulo {
     display: flex;
@@ -46,8 +42,9 @@
     height: 350px;
     margin: 30px;
     padding: 0px;
-    width: 200vh;
+    width: 100%;
     color: black;
+    border: 0px;
 }
 
 
@@ -55,6 +52,7 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
 }
 
 .titulo-tercer-container {
@@ -66,7 +64,7 @@
     font-size: large;
     background-color: grey;
     height: 50px;
-
+    
 }
 
 .container-cartas {
@@ -136,6 +134,10 @@
 
 /*SUCURSALES*/
 
+.segundo-container {
+    display: flex;
+    height: 100vh;
+}
 .mapa {
     display: flex;
     flex-wrap: wrap;
@@ -198,19 +200,30 @@ footer {
     flex-wrap: wrap;
 }
 
-.div-footer-dos li {
-    border-radius: 7px;
-}
-
 .div-footer-dos>h2 {
     width: 100%;
     text-align: center;
 }
 
-.div-footer-dos a {
+.div-footer-dos a{
     text-decoration: none;
     color: black;
+    display: flex;
+    justify-content: space-between;
 }
+.div-footer-dos ul {
+    width: 100%;
+    text-align: center;
+}
+.div-footer-dos ul li{
+    display: inline-block;
+}
+.div-footer-dos ul li a i{
+    display: flex;
+    margin: 10px;
+    font-size: 25px;
+}
+
 
 
 .div-footer-tres {

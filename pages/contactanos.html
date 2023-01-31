@@ -5,69 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anidar-contactanos</title>
+    <title>Anidar · Contactanos</title>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!--CDN ANIMATE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!--MI CSS-->
     <link rel="stylesheet" href="../css/stiyle.css">
 </head>
 
-<body id="grid">
+<body>
     <header>
-        <!--nav-->
-        <nav class="nav-container">
-            <li class="nav-li"><a href="../index.html">Inicio</a></li>
-            <li class="nav-li"><a href="./galeria.html">Galeria</a></li>
-            <li class="nav-li"><a href="./nosotros.html">Nosotros</a></li>
-            <li class="nav-li"><a href="./locales.html">Locales</a></li>
-            <li class="nav-li"><a href="./contactanos.html">Contactanos</a></li>
+        <!--navboot-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Anidar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./locales.html">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <!--formulario-->
-        <div class="form-login">
-            <h3>Login</h3>
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                        else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <button type="submit" class="submit-button btn btn-primary">Login</button>
-            </form>
-        </div>
-        <div class="form-login">
-            <h3>Register</h3>
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                        else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Adress</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter your address">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Full Name</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter your name">
-                </div>
-                <button type="submit" class="submit-button btn btn-primary">Register</button>
-            </form>
+        <div class="div-container-form">
+            <div class="form-login">
+                <h3>Login</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <button type="submit" class="submit-button btn btn-primary">Login</button>
+                </form>
+            </div>
+            <div class="form-login">
+                <h3>Register</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Adress</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter your address">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Full Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter your name">
+                    </div>
+                    <button type="submit" class="submit-button btn btn-primary">Register</button>
+                </form>
+            </div>
         </div>
     </main>
 
@@ -77,17 +111,20 @@
         <div class="div-footer-dos">
             <h2>Redes Sociales</h2>
             <ul>
-                <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f">  </i></a></li>
-                <li><a href="https://www.instagram.com/" class="Instagram"><i class="fab fa-instagram"> </i></a></li>
-                <li><a href="https://www.Twitter.com/" class="Twitter"><i class="fab fa-twitter"> </i></a></li>
-                <li><a href="https://www.linkedin.com/" class="linkedin"><i class="fa-brands fa-linkedin"> </i></a></li>
+                <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/" class="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.Twitter.com/" class="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
             </ul>
         </div>
         <div class="div-footer-tres">
             <p>Anidar. Todos los derechos reservados.</p>
         </div>
     </footer>
-
+    <!--script BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>,
 </body>
 
 </html>

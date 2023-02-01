@@ -1,0 +1,22 @@
+.mapa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin: 70px;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    span {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+        margin: 10px;
+    }
+} 

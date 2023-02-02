@@ -32,9 +32,21 @@
 .tercer-container {
     background-color: rgb(255, 255, 255);
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     height: 100vh;
     background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png)
+}
+.container-cartas{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+.carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .titulo-tercer-container {
@@ -65,3 +77,4 @@
     align-items: center;
     background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
 }
+

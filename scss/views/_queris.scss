@@ -1,26 +1,22 @@
-@media screen and (max-width:768px) {
-    /*nav*/
-
-    .nav-container {
+@media screen and (max-width:1060px) {
+    /*index*/
+    .tercer-container {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        list-style-type: none;
-        height: 200px;
-        width: 100%;
+        flex-direction: column;
+        height: 200vh;
+        background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png)
     }
-
-    .nav-li {
-        border: solid white;
-        margin: 0;
-        padding: 5px;
-        list-style: none;
-        text-align: center;
-        background-color: #fdfcf4;
-        color: solid blue;
+    .container-cartas{
+        display:flex;
     }
+    .carta{
+        display: flex;
 
+        div{
+            height: 50px;
+        }
+    }
+    
     /*locales*/
 
     .titulo {
@@ -38,20 +34,6 @@
 }
 
 @media screen and (max-width:576px) {
-
-    /*nav*/
-    .nav-container {
-        display: flex;
-        flex-direction: column;
-        height: 200px;
-        width: 100%;
-    }
-
-    .nav-li {
-        width: auto;
-        background-color: #fffcdc;
-        color: black;
-    }
 
     /*locales*/
 

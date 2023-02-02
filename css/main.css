@@ -4,6 +4,73 @@
   font-family: "Poppins", sans-serif;
 }
 
+@media screen and (max-width: 1060px) {
+  /*index*/
+  .tercer-container {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
+  }
+  .container-cartas {
+    display: flex;
+  }
+  .carta {
+    display: flex;
+  }
+  .carta div {
+    height: 50px;
+  }
+  /*locales*/
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .titulo p {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  /*locales*/
+  .segundo-container {
+    width: 100%;
+  }
+  .titulo {
+    width: 100%;
+  }
+  .mapa {
+    width: 100%;
+    margin: 30px;
+    padding: 0;
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+  }
+  /*contactanos*/
+  .form-login {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .form-login h3 {
+    text-decoration: underline;
+  }
+  form {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  footer {
+    background-color: rgb(248, 220, 220);
+    width: 100%;
+  }
+}
 .container-cartas {
   display: flex;
   justify-content: space-around;
@@ -19,7 +86,7 @@
   padding: 4%;
   border: 2px solid black;
   margin: 30px;
-  height: 400px;
+  height: 300px;
   border-radius: 10px;
 }
 
@@ -87,9 +154,22 @@
 .tercer-container {
   background-color: rgb(255, 255, 255);
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   height: 100vh;
   background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
+}
+
+.container-cartas {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.carta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .titulo-tercer-container {
@@ -214,88 +294,6 @@ footer {
   margin-top: 5%;
 }
 
-@media screen and (max-width: 768px) {
-  /*nav*/
-  .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style-type: none;
-    height: 200px;
-    width: 100%;
-  }
-  .nav-li {
-    border: solid white;
-    margin: 0;
-    padding: 5px;
-    list-style: none;
-    text-align: center;
-    background-color: #fdfcf4;
-    color: solid blue;
-  }
-  /*locales*/
-  .titulo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .titulo p {
-    display: flex;
-    justify-content: center;
-    width: auto;
-  }
-}
-@media screen and (max-width: 576px) {
-  /*nav*/
-  .nav-container {
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    width: 100%;
-  }
-  .nav-li {
-    width: auto;
-    background-color: #fffcdc;
-    color: black;
-  }
-  /*locales*/
-  .segundo-container {
-    width: 100%;
-  }
-  .titulo {
-    width: 100%;
-  }
-  .mapa {
-    width: 100%;
-    margin: 30px;
-    padding: 0;
-    height: auto;
-    width: auto;
-    border: 2px solid black;
-  }
-  /*contactanos*/
-  .form-login {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .form-login h3 {
-    text-decoration: underline;
-  }
-  form {
-    width: 100%;
-  }
-  main {
-    width: 100%;
-  }
-  footer {
-    background-color: rgb(248, 220, 220);
-    width: 100%;
-  }
-}
 .form-login {
   margin: 20px 20%;
 }

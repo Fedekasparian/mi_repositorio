@@ -4,6 +4,27 @@
   font-family: "Poppins", sans-serif;
 }
 
+.mapa {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  margin: 70px;
+}
+.mapa div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mapa span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+  margin: 10px;
+}
+
 .carta {
   width: 30%;
   padding: 4%;
@@ -59,7 +80,7 @@
   color: black;
   border: 0px;
   width: 100%;
-  background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
+  background-image: url(../../img/fondo.png);
 }
 .titulo p {
   display: flex;
@@ -78,10 +99,9 @@
 .container-cartas {
   display: flex;
   align-items: center;
-  background-color: rgb(255, 255, 255);
   height: 100vh;
   width: 100%;
-  background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
+  background-image: url(../../img/fondo.png);
   justify-content: space-around;
   font-size: 12px;
   border-bottom: 1px solid black;
@@ -105,24 +125,24 @@
   justify-content: center;
   align-items: center;
   font-size: large;
-  background-color: rgb(255, 255, 255);
   height: 80px;
 }
 
 /*locales*/
 .titulo-mp {
-  background-image: url(/img/Human\ Evolution\ Interactive\ Timeline.png);
+  background-image: url(../../img/fondo.png);
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .container-maps {
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
+  background-image: url(../../img/fondo.png);
   border-bottom: 2px solid black;
 }
 
@@ -131,28 +151,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
-}
-
-.mapa {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  margin: 70px;
-}
-.mapa div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.mapa span {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-size: 25px;
-  width: 100%;
-  margin: 10px;
+  background-image: url(../../img/fondo.png);
 }
 
 footer {
@@ -210,53 +209,6 @@ footer {
   display: flex;
   margin: 10px;
   font-size: 25px;
-}
-
-.div-footer-tres {
-  grid-area: c;
-  display: flex;
-  justify-content: center;
-  font-size: 0px;
-  height: auto;
-}
-
-.titulo h2 {
-  text-decoration: underline;
-  font-size: xx-large;
-}
-
-.titulo div {
-  margin-top: 5%;
-}
-
-.nav-li:hover {
-  background-color: #ddddd8;
-  transition: 0.3s;
-}
-
-.div-footer-dos li:hover {
-  background-color: rgb(190, 177, 177);
-  transition: 0.3s;
-}
-
-.form-login {
-  margin: 20px 20%;
-}
-.form-login h3 {
-  text-align: center;
-  align-items: center;
-}
-
-.form-group {
-  margin: 1% 0%;
-}
-
-.div-container-form {
-  background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
-  height: 130vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 
 footer {
@@ -320,6 +272,45 @@ footer {
   display: flex;
   justify-content: center;
   font-size: 10px;
+}
+
+.titulo h2 {
+  text-decoration: underline;
+  font-size: xx-large;
+}
+
+.titulo div {
+  margin-top: 5%;
+}
+
+.nav-li:hover {
+  background-color: #ddddd8;
+  transition: 0.3s;
+}
+
+.div-footer-dos li:hover {
+  background-color: rgb(190, 177, 177);
+  transition: 0.3s;
+}
+
+.form-login {
+  margin: 20px 20%;
+}
+.form-login h3 {
+  text-align: center;
+  align-items: center;
+}
+
+.form-group {
+  margin: 1% 0%;
+}
+
+.div-container-form {
+  background-image: url(../../img/fondo.png);
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 1150px) {
@@ -433,7 +424,7 @@ footer {
   /*locales*/
   .titulo-mp {
     height: 40vh;
-    background-image: url(/img/Human\ Evolution\ Interactive\ Timeline.png);
+    background-image: url(../../img/fondo.png);
   }
   .div-container-maps {
     display: flex;
@@ -469,4 +460,7 @@ footer {
   footer i {
     color: aliceblue;
   }
+}
+.titulo-tercer-container {
+  background-color: beige;
 }/*# sourceMappingURL=main.css.map */

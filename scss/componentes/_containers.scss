@@ -7,10 +7,10 @@
     align-items: center;
     text-align: center;
     height: 92vh;
-    color: black;
+    color: map-get($paleta_de_colores , secondary );
     border: 0px;
     width: 100%;
-    background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
+    background-image: url(../../img/fondo.png);
 
     p {
         display: flex;
@@ -32,10 +32,9 @@
 .container-cartas {
     display: flex;
     align-items: center;
-    background-color: rgb(255, 255, 255);
     height: 100vh;
     width: 100%;
-    background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
+    background-image: url(../../img/fondo.png);
     justify-content: space-around;
     font-size: 12px;
     border-bottom: 1px solid black;
@@ -61,27 +60,24 @@
     justify-content: center;
     align-items: center;
     font-size: large;
-    background-color: rgb(255, 255, 255);
     height: 80px;
 }
 
 /*locales*/
 
 .titulo-mp{
-    background-image: url(/img/Human\ Evolution\ Interactive\ Timeline.png);
+    background-image: url(../../img/fondo.png);
     height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    h2{
-    }
 }
 .container-maps {
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
+    background-image: url(../../img/fondo.png);
     border-bottom: 2px solid black;
 }
 
@@ -90,5 +86,5 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-image: url(../img/Human\ Evolution\ Interactive\ Timeline.png);
+    background-image: url(../../img/fondo.png);
 }

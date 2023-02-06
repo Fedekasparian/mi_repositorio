@@ -23,10 +23,11 @@
 .carta-oferta img {
   display: flex;
   height: 200px;
-  width: 300px;
+  width: 250px;
 }
 .carta-oferta h4 {
   padding: 2%;
+  font-size: 2rem;
   font-family: "Times New Roman", Times, serif;
   text-decoration: underline;
   display: flex;
@@ -185,6 +186,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: auto;
 }
 .div-footer-dos h2 {
   width: 100%;
@@ -214,7 +216,8 @@ footer {
   grid-area: c;
   display: flex;
   justify-content: center;
-  font-size: 10px;
+  font-size: 0px;
+  height: auto;
 }
 
 .titulo h2 {
@@ -319,26 +322,34 @@ footer {
   font-size: 10px;
 }
 
+@media screen and (max-width: 1150px) {
+  /*Locales*/
+  .div-container-maps {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+  }
+}
 @media screen and (max-width: 1060px) {
   /*index*/
-  .container-cartas {
+  .tercer-container .container-cartas {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 60%;
+    width: 100%;
   }
-  .container-cartas .carta {
+  .tercer-container .container-cartas .carta {
     display: flex;
     width: 90%;
     height: auto;
   }
-  .container-cartas p {
+  .tercer-container .container-cartas p {
     height: 90%;
   }
   /*Galeria*/
   .imagenes {
     display: flex;
-    height: 300vh;
+    height: 200vh;
     flex-flow: wrap;
     justify-content: space-around;
   }
@@ -365,8 +376,14 @@ footer {
     width: 100%;
     margin: 20px 0px;
   }
+  /*Locales*/
+  .div-container-maps {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+  }
 }
-@media screen and (max-width: 1060px) and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   /*index*/
   .titulo {
     text-align: center;
@@ -416,6 +433,7 @@ footer {
   /*locales*/
   .titulo-mp {
     height: 40vh;
+    background-image: url(/img/Human\ Evolution\ Interactive\ Timeline.png);
   }
   .div-container-maps {
     display: flex;
@@ -423,7 +441,7 @@ footer {
     height: 150vh;
   }
   .mapa {
-    width: 90%;
+    width: 95%;
     margin: 30px;
     height: auto;
   }

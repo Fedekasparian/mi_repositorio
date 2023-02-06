@@ -57,40 +57,25 @@
     }
 
 
-
-
-    /*locales*/
-
-    .titulo {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-
-        p {
-            display: flex;
-            justify-content: center;
-            width: auto;
-        }
-    }
-
-
     @media screen and (max-width:576px) {
 
 
         /*index*/
         .titulo {
+            text-align: center;
+
             h2 {
                 margin-top: 20px;
             }
 
             .sub-tit {
-                display: flex;
                 height: 20px;
                 margin: 30px;
+                width: 40%;
             }
 
             p {
+                text-align: center;
                 align-items: center;
                 width: 90%;
             }
@@ -99,7 +84,8 @@
         .container-cartas {
             display: flex;
             flex-direction: column;
-            height: auto;
+            height: 110vh;
+            width: 100%;
 
             .carta {
                 width: 90%;
@@ -131,32 +117,21 @@
         }
 
         /*locales*/
-.container-maps{
-    display: flex;
-    flex-direction: column;
-    height: 200vh;
-    .titulo {
-        margin-top: 10px;
-        margin: 0;
-    }
-    .div-container-maps{
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        margin-bottom: 10px;
-    }
-    .mapa {
-        width: 90%;
-        margin: 0;
-        height: auto;
-    }
-}
-.div-footer-dos{
-height: auto;
-}
+        .titulo-mp {
+            height: 40vh;
+        }
 
-        
+        .div-container-maps {
+            display: flex;
+            flex-direction: column;
+            height: 150vh;
+        }
 
+        .mapa {
+            width: 90%;
+            margin: 30px;
+            height: auto;
+        }
 
         /*contactanos*/
 
@@ -180,8 +155,12 @@ height: auto;
         }
 
         footer {
-            background-color: rgb(248, 220, 220);
+            background-color: rgb(0, 0, 0);
             width: 100%;
+            color: aliceblue;
+            i{
+                color:aliceblue
+            }
         }
     }
 }

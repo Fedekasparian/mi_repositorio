@@ -67,6 +67,15 @@
 
 /*locales*/
 
+.titulo-mp{
+    background-image: url(/img/Human\ Evolution\ Interactive\ Timeline.png);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+    }
+}
 .container-maps {
     display: flex;
     flex-direction: column;

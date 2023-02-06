@@ -424,7 +424,7 @@ footer {
   /*locales*/
   .titulo-mp {
     height: 40vh;
-    background-image: url(../../img/fondo.png);
+    background-image: url(/img/fondo.png);
   }
   .div-container-maps {
     display: flex;

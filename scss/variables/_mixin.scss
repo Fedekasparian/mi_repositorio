@@ -1,2 +1,10 @@
-
+@mixin footer{
+    grid-area: c;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+.div-footer-tres {
+    @include footer;
+}
 

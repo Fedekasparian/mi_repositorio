@@ -267,13 +267,6 @@ footer {
   font-size: 25px;
 }
 
-.div-footer-tres {
-  grid-area: c;
-  display: flex;
-  justify-content: center;
-  font-size: 10px;
-}
-
 .titulo h2 {
   text-decoration: underline;
   font-size: xx-large;
@@ -312,6 +305,7 @@ footer {
   flex-direction: column;
   justify-content: space-around;
 }
+
 
 .titulo-tercer-container {
   background-color: beige;
@@ -464,4 +458,11 @@ footer {
   footer i {
     color: aliceblue;
   }
+}
+
+.div-footer-tres {
+  grid-area: c;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
 }/*# sourceMappingURL=main.css.map */

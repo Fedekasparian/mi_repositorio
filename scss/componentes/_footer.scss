@@ -1,5 +1,8 @@
+/*footer*/
+
 footer {
     width: 100%;
+    background-color: map-get($paleta_de_colores,primary );
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 150px 10px;
@@ -15,6 +18,7 @@ footer {
     grid-area: a;
     display: flex;
     justify-content: center;
+    background-color: beige;
 
     h2 {
         width: 100%;
